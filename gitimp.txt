@@ -1,0 +1,39 @@
+Check Current Configuration:
+git config user.name
+git config user.email
+
+Config commands:
+git config --global user.name "name"
+git config --global user.email "email"
+
+
+
+initialize git repo in local machine:
+git init;
+
+Status of Git:
+git status;
+
+clone  a Git Repo
+git clone URL...
+
+check remote branches :
+=>git remote -v
+
+adding remote branch:
+git remote add (origin-main/add any branch name) URL,
+
+rename remote branch:
+git remote rename <old> <new>
+
+remove remote branch:
+git remote remove  <name>
+
+Push code to remote branch:
+git push -u origin main/master;
+
+In github main branch is "main"
+and in  git it was "master"
+change master to main:
+git branch -M main
+
