@@ -17,16 +17,24 @@ git status;
 clone  a Git Repo
 git clone URL...
 
+GIT FLOW:
+git init,
+git status,
+git add ./git add filename ,
+git commit -m "message"
+now data inserted into git local area
+
+
 check remote branches :
 =>git remote -v
 
-adding remote branch:
+adding remote branch url to local git :
 git remote add (origin-main/add any branch name) URL,
 
 rename remote branch:
 git remote rename <old> <new>
 
-remove remote branch:
+remove the remote branch url to local git :
 git remote remove  <name>
 
 Push code to remote branch:
