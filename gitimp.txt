@@ -14,7 +14,7 @@ git init;
 Status of Git:
 git status;
 
-clone  a Git Repo
+clone  a Git Repo   --imp(for cloning a repo)
 git clone URL...
 
 GIT FLOW:
@@ -28,7 +28,7 @@ now data inserted into git local area
 check remote branches :
 =>git remote -v
 
-adding remote branch url to local git :
+adding remote branch url to local git : --imp(for adding a repo url to local git)
 git remote add (origin-main/add any branch name) URL,
 
 rename remote branch:
@@ -38,10 +38,22 @@ remove the remote branch url to local git :
 git remote remove  <name>
 
 Push code to remote branch:
-git push -u origin main/master;
+git push  origin main/master;
 
 In github main branch is "main"
 and in  git it was "master"
 change master to main:
 git branch -M main
+
+Get Repository changes from remote branch to local :
+git pull and git fetch
+
+using git fetch:
+It can fetch data to local repository but not overwrite current dir files
+then git merge to pull files to working dir and merhe it.
+
+using git pull:
+fetch and merge at a time .
+
+
 
